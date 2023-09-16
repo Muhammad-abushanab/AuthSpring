@@ -6,15 +6,16 @@ application using the BCrypt.
 
 ## Routes
 
-| Route   | Method | Description                                        |
-|---------|--------|----------------------------------------------------|
-| /       | GET    | Displays the home page                             |
-| /login  | GET    | Displays the login page.                           |
-| /login  | POST   | Handles user login.                                |
-| /signup | GET    | Displays the signup page.                          |
-| /signup | POST   | Handles user signup.                               |
-| /logout | GET    | Logs the user out and redirects to the login page. |
-| /posts  | GET    | Gets the user posts                                |
+| Route         | Method | Description                                        |
+|---------------|--------|----------------------------------------------------|
+| /             | GET    | Displays the home page                             |
+| /login        | GET    | Displays the login page.                           |
+| /login        | POST   | Handles user login.                                |
+| /signup       | GET    | Displays the signup page.                          |
+| /signup       | POST   | Handles user signup.                               |
+| /logout       | GET    | Logs the user out and redirects to the login page. |
+| /posts        | GET    | Gets the user posts                                |
+| /posts/create | Post   | Handles the user post creation                     |
 
 ## Notes
 
